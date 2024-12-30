@@ -1,0 +1,220 @@
+.photoanddetailssection{
+    width: 100%;
+    height: 96vh;
+    display: flex;
+}
+
+/* Image Section Home */
+
+.photosection{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imagediv{
+    width: 400px;
+    height: 450px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.image-custom{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Details Section Home */
+
+.detailssection{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.detailsdiV{
+    width: 480px;
+    height: 280px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.homehellodiv{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homehellodiv p{
+    color: #656565;
+}
+.homenamediv{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homenamediv h1{
+    font-size: 24px;
+}
+.homedesignationdiv{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homedesignationdiv h1{
+    font-size: 20px;
+    color: #656565;
+}
+.homebuttondiv{
+    height: 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.homesocialbuttondiv{
+    height: 50px;
+}
+.downlaodbtn-custom{
+    min-width: 140px;
+    max-width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    outline-color: none;
+    outline:none;
+    background-color: #ffffff;
+    color: #000;
+    font-weight: 600;
+    transition: all .7s;
+}
+
+.downlaodbtn-custom:hover{
+    background-color: #656565;
+    color: #ffffff;
+    border: none;
+}
+
+.contactinfobtn-custom{
+    min-width: 140px;
+    max-width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    outline-color: none;
+    border: none;
+    outline:none;
+    background-color: #656565;
+    color: white;
+    font-weight: 600;
+    transition: all .7s;
+}
+.contactinfobtn-custom:hover{
+    color: #000;
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+.homesocialbuttondiv{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.linkdindiv{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.socialmediaimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Homediv-custom{
+    padding: 80px 20px 20px 20px;
+}
+
+@media screen and (max-width:991px) {
+    .imagediv{
+        width: 400px;
+        height: 400px;
+    }
+    .photosection{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+        .photoanddetailssection{
+            flex-wrap: wrap;
+        }
+        .imagediv{
+            width: 300px;
+            height: 300px;
+            margin-right: 0px;
+        }
+        
+        .photosection{
+            width: 100%;
+            justify-content: center;
+        }
+        .detailssection{
+            width: 100%;
+            justify-content: center;
+        }
+        .photoanddetailssection{
+            height: 100%;
+        }
+        .detailsdiV{
+            margin-left: 0px;
+            margin-top: 40px;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            padding: 10px;
+        }
+}
+
+@media screen and (max-width: 575px) {
+    .detailssection, .photosection{
+        padding: 20px
+    }
+
+    .homehellodiv p{
+        font-size: 12px;
+    }
+
+    .homedesignationdiv h1{
+        font-size: 14px ;
+    }
+    
+    .homenamediv h1{
+        font-size: 15px;
+    }
+    .detailsdiV{
+        width: 350px;
+        margin-top: 20px;
+    }
+    .contactinfobtn-custom{
+        min-width: 100px;
+        max-width: 100px;
+        font-size: 10px;
+        height: 30px;
+    }
+    .downlaodbtn-custom{
+        min-width: 100px;
+        max-width: 100px;
+        font-size: 10px;
+        height: 30px;
+    }
+    .imagediv{
+        width: 250px;
+        height: 250px;
+    }
+}
