@@ -1,23 +1,8 @@
-@keyframes appear {
-    0% {
-        opacity: 0;
-        scale: .5;
-    }
-
-    100% {
-        opacity: 1;
-        scale: 1;
-    }
-}
-
 .experience-custom {
     width: 100%;
     height: 100%;
     padding: 20px;
     margin-top: 40px;
-    /* animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%; */
 }
 
 .experience-intro {
@@ -37,12 +22,10 @@
 .experienceparentdiv {
     width: 100%;
     display: flex;
-    border: 2px solid black;
     padding: 20px;
 }
 
 .experiencechildone {
-    border: 2px solid black;
     width: 50%;
     display: flex;
     justify-content: flex-end;
@@ -50,22 +33,25 @@
 }
 
 .experiencechildtwo {
-    border: 2px solid black;
     width: 50%;
     display: flex;
     justify-content: flex-start;
 }
 
 .experiencechildone .experiencechildbox {
-    border: 2px solid black;
     width: 80%;
     margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px;
 }
 
 .experiencechildtwo .experiencechildbox {
-    border: 2px solid black;
     width: 80%;
     margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px;
 }
 
 .experiencechildbox h1 {
@@ -75,17 +61,75 @@
 }
 
 .experienceboxinnerbox {
-    border: 2px solid black;
     width: 100%;
     display: flex;
-    height: 80px;
+    height: 60px;
 }
 
-.experienceboxinnerboxchildone {
-    border: 2px solid black;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .experiencechildbox h1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .experiencechildone {
+        width: 100%;
+    }
+
+    .experiencechildtwo {
+        width: 100%;
+    }
+
+    .experienceparentdiv {
+        flex-wrap: wrap;
+    }
+
+    .experiencechildone {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .experiencechildtwo {
+        justify-content: center;
+    }
+
+    .experiencechildtwo .experiencechildbox {
+        margin-left: 0px;
+    }
+
+    .experiencechildone .experiencechildbox {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .experience-intro p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .experience-intro h1 {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .experiencechildbox h1 {
+        font-size: 15px;
+    }
+
+    .experienceparentdiv {
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .experiencechildone .experiencechildbox {
+        width: 100%;
+    }
+
+    .experiencechildtwo .experiencechildbox {
+        width: 100%;
+    }
 }

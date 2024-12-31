@@ -1,0 +1,62 @@
+.experienceboxinnerboxchildone {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.experienceboxinnerboxcontent p {
+    margin: 0px;
+    color: #656565;
+    font-size: 14px;
+
+}
+
+.experienceboxinnerboxcontent h1 {
+    margin: 0px;
+    font-size: 15px;
+    text-align: start;
+
+}
+
+.experiencecheckicon {
+    font-size: 26px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+    .experienceboxinnerboxcontent h1 {
+        font-size: 12px;
+    }
+
+    .experienceboxinnerboxcontent p {
+        font-size: 11px;
+    }
+
+    .experiencecheckicon {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .experiencecheckicon {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .experienceboxinnerboxcontent h1 {
+        font-size: 10px;
+    }
+
+    .experienceboxinnerboxcontent p {
+        font-size: 9px;
+    }
+
+    .experiencecheckicon {
+        font-size: 20px;
+    }
+
+
+}

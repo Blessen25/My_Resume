@@ -2,6 +2,8 @@ import React from 'react'
 import './Experience.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAnchorCircleCheck, faBridgeCircleCheck, faCheckCircle, faCheckSquare } from "@fortawesome/free-solid-svg-icons";
+import ExperiencewithIcon from '../extraComponents/experiencewithicon.tsx';
+
 
 const Experience = () => {
     return (
@@ -15,16 +17,15 @@ const Experience = () => {
                     <div className="experiencechildbox">
                         <h1>Front-end Developement</h1>
                         <div className="experienceboxinnerbox">
-                            <div className="experienceboxinnerboxchildone">
-                                <FontAwesomeIcon icon={faCheckCircle} fontSize={30} />
-                                <div className="experienceboxinnerboxcontent">
-                                    <p>HTML</p>
-                                    <p>Experienced</p>
-                                </div>
-                            </div>
-                            <div className="experienceboxinnerboxchildone">
-
-                            </div>
+                            <ExperiencewithIcon language={'HTML'} level={'Experienced'} />
+                            <ExperiencewithIcon language={'CSS'} level={'Experienced'} />
+                        </div>
+                        <div className="experienceboxinnerbox">
+                            <ExperiencewithIcon language={'React'} level={'Intermediate'} />
+                            <ExperiencewithIcon language={'Bootstrap'} level={'Intermediate'} style={{ paddingLeft: '3px' }} />
+                        </div>
+                        <div className="experienceboxinnerbox">
+                            <ExperiencewithIcon language={'JavaScript'} level={'Basic'} style={{ paddingRight: '11px' }} />
                         </div>
                     </div>
                 </div>
@@ -32,12 +33,11 @@ const Experience = () => {
                     <div className="experiencechildbox">
                         <h1>Back-end Development</h1>
                         <div className="experienceboxinnerbox">
-                            <div className="experienceboxinnerboxchildone">
-                                <FontAwesomeIcon icon={faAnchorCircleCheck} fontSize={20} />
-                            </div>
-                            <div className="experienceboxinnerboxchildone">
-
-                            </div>
+                            <ExperiencewithIcon language={'Python'} level={'Intermediate'} />
+                            <ExperiencewithIcon language={'Github'} level={'Intermediate'} />
+                        </div>
+                        <div className="experienceboxinnerbox">
+                            <ExperiencewithIcon language={'Django'} level={'Intermediate'} />
                         </div>
                     </div>
                 </div>
