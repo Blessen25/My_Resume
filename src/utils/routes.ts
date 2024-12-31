@@ -1,12 +1,22 @@
 export const routes = [
     {
-        path:'/',
-        component:'Home',
-        label : 'Home'
+        path: '/',
+        component: 'Home',
+        label: 'Home'
     },
     {
-        path:'/Aboutus',
-        component:'Aboutus',
-        label : 'Aboutus'
+        path: '/about',
+        component: 'Aboutus',
+        label: 'Aboutus'
     },
+    {
+        path: '/experience',
+        component: 'Experience',
+        label: 'Experience'
+    },
+    {
+        path: '/custom',
+        component: 'Custom',
+        label: 'Custom'
+    }
 ]
