@@ -1,40 +1,40 @@
-
-@keyframes appear{
-    0%{
+@keyframes appear {
+    0% {
         opacity: 0;
         scale: .5;
     }
 
-    100%{
+    100% {
         opacity: 1;
         scale: 1;
     }
 }
 
-.Aboutus-custom{
+.Aboutus-custom {
     width: 100%;
     height: 100%;
     padding: 20px;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
-    
+
 }
 
-.knowmore{
-    text-align: center;
-}
-.Aboutme{
+.knowmore {
     text-align: center;
 }
 
-.knowmore p{
+.Aboutme {
+    text-align: center;
+}
+
+.knowmore p {
     color: #656565;
 }
 
 /* About us  */
 
-.Aboutusimageanddetails{
+.Aboutusimageanddetails {
     width: 100%;
     display: flex;
     padding: 20px;
@@ -42,13 +42,14 @@
 }
 
 
-.Aboutusimage{
+.Aboutusimage {
     width: 30%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.image-div-about{
+
+.image-div-about {
     width: 320px;
     height: 320px;
     border-radius: 5%;
@@ -56,48 +57,51 @@
 }
 
 
-.Aboutusdetails{
+.Aboutusdetails {
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.Aboutusdetailsfirst{
+
+.Aboutusdetailsfirst {
     width: 100%;
     height: 150px;
     display: flex;
     justify-content: space-between;
 }
-.Aboutusdetailsfirstchild{
-    width: 36%;
+
+.Aboutusdetailsfirstchild {
+    width: 225px;
     border-radius: 10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 
-.Aboutusdetailssecond{
+.Aboutusdetailssecond {
     width: 100%;
 }
 
-.Aboutusdetailsfirstchild p{
+.Aboutusdetailsfirstchild p {
     color: #656565;
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;
 }
 
-.Aboutusdetailsfirstchild h1{
+.Aboutusdetailsfirstchild h1 {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
 }
-.aboutusgradicon{
+
+.aboutusgradicon {
     font-size: 20px;
 }
 
-.Aboutusdetailssecond p{
+.Aboutusdetailssecond p {
     color: #656565;
     width: 100%;
     display: -webkit-box;
@@ -107,7 +111,8 @@
     text-overflow: ellipsis;
     text-align: justify;
 }
-.about-us-image{
+
+.about-us-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -116,36 +121,44 @@
 }
 
 @media screen and (max-width:991px) and (min-width:768px) {
-    .Aboutusdetailsfirstchild h1{
+    .Aboutusdetailsfirstchild h1 {
         font-size: 16px;
     }
 
-    .Aboutusdetailsfirstchild p{
+    .Aboutusdetailsfirstchild p {
         font-size: 14px;
+    }
+
+    .Aboutusdetailsfirstchild {
+        width: 200px;
     }
 }
 
 @media screen and (max-width:767px) {
-    .Aboutusimageanddetails{
+    .Aboutusimageanddetails {
         flex-wrap: wrap;
         padding: 10px;
     }
-    .Aboutusimage{
+
+    .Aboutusimage {
         width: 100%;
         justify-content: center;
     }
-    .image-div-about{
+
+    .image-div-about {
         margin-right: 0px;
     }
 
-    .Aboutusdetails{
+    .Aboutusdetails {
         width: 100%;
         margin-top: 20px;
     }
-    .Aboutusdetailsfirst{
+
+    .Aboutusdetailsfirst {
         font-size: 15px;
     }
-    .Aboutusdetailssecond p{
+
+    .Aboutusdetailssecond p {
         -webkit-line-clamp: 14;
     }
 }
@@ -155,35 +168,41 @@
         font-size: 12px;
     }
 
-    .Aboutme h1{
+    .Aboutme h1 {
         font-size: 15px;
         margin-top: 15px;
     }
-    .Aboutusimageanddetails{
+
+    .Aboutusimageanddetails {
         margin-top: 20px;
     }
 
-    .aboutusgradicon{
+    .aboutusgradicon {
         font-size: 14px;
     }
-    .Aboutusdetailsfirst{
+
+    .Aboutusdetailsfirst {
         height: 125px;
     }
+
     .Aboutusdetailsfirstchild {
         height: 120px;
+        width: 160px;
     }
-    .Aboutusdetailsfirstchild h1{
+
+    .Aboutusdetailsfirstchild h1 {
         font-size: 13px;
         margin-top: 10px;
     }
-    
-    .Aboutusdetailsfirstchild p{
+
+    .Aboutusdetailsfirstchild p {
         font-size: 10px;
         margin-bottom: 5px;
     }
 
-    .Aboutusdetailssecond p{
+    .Aboutusdetailssecond p {
         font-size: 12px;
         -webkit-line-clamp: 18;
     }
+
 }
