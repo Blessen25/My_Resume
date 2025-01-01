@@ -8,7 +8,7 @@ const Aboutus = () => {
     return (
         <SectionComponent id="About" child={
             <>
-                <Subtitleandtitle subtitle="Get to know more" title="About me" />
+                <Subtitleandtitle subtitle="Get To Know More" title="About Me" />
                 <div className="Aboutusimageanddetails">
                     <div className="Aboutusimage">
                         <div className="image-div-about">

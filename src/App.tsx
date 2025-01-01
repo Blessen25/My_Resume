@@ -9,6 +9,7 @@ import Aboutus from './components/aboutus/Aboutus.tsx';
 import Skills from './components/Experience/Experience.tsx';
 import Experience from './components/Experience/Experience.tsx';
 import Custom from './components/custompage/customcode.tsx';
+import Projects from './components/projects/projects.tsx';
 
 const App: React.FC = () => {
 
@@ -66,6 +67,9 @@ const App: React.FC = () => {
                 </section>
                 <section id='Experience'>
                   <Experience />
+                </section>
+                <section id='Projects'>
+                  <Projects />
                 </section>
               </main>
             </div>

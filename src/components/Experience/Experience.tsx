@@ -3,16 +3,13 @@ import './Experience.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAnchorCircleCheck, faBridgeCircleCheck, faCheckCircle, faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import ExperiencewithIcon from '../extraComponents/experiencewithicon.tsx';
-import { SectionComponent } from '../extraComponents/Components.tsx';
+import { SectionComponent, Subtitleandtitle } from '../extraComponents/Components.tsx';
 
 
 const Experience = () => {
     return (
         <SectionComponent id='Experience' child={<>
-            <div className="experience-intro">
-                <p>Explore My</p>
-                <h1>Experience</h1>
-            </div>
+            <Subtitleandtitle subtitle='Explore My' title='Experience' />
             <div className="experienceparentdiv">
                 <div className="experiencechildone">
                     <div className="experiencechildbox">
