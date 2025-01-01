@@ -174,7 +174,7 @@
     }
 
     .Aboutusimageanddetails {
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .aboutusgradicon {
@@ -205,4 +205,18 @@
         -webkit-line-clamp: 18;
     }
 
+}
+
+@media screen and (max-width: 425px) {
+    .Aboutusdetailsfirstchild {
+        width: 120px;
+    }
+
+    .Aboutusdetailsfirstchild h1 {
+        font-size: 10px;
+    }
+
+    .Aboutusdetailsfirstchild p {
+        font-size: 9px;
+    }
 }

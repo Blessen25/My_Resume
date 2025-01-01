@@ -8,15 +8,15 @@
 
 .experienceboxinnerboxcontent p {
     margin: 0px;
-    color: #656565;
-    font-size: 14px;
+    color: #656565 !important;
+    font-size: 14px !important;
 
 }
 
 .experienceboxinnerboxcontent h1 {
     margin: 0px;
-    font-size: 15px;
-    text-align: start;
+    font-size: 15px !important;
+    text-align: start !important;
 
 }
 
@@ -24,14 +24,37 @@
     font-size: 26px;
 }
 
+.section-custom {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.subtitle-custom-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.subtitle-custom-intro p {
+    color: #656565;
+    margin: 0px;
+}
+
+
+
 @media screen and (max-width: 991px) and (min-width: 768px) {
 
     .experienceboxinnerboxcontent h1 {
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .experienceboxinnerboxcontent p {
-        font-size: 11px;
+        font-size: 11px !important;
     }
 
     .experiencecheckicon {
@@ -47,16 +70,25 @@
 
 @media screen and (max-width: 575px) {
     .experienceboxinnerboxcontent h1 {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 
     .experienceboxinnerboxcontent p {
-        font-size: 9px;
+        font-size: 9px !important;
     }
 
     .experiencecheckicon {
         font-size: 20px;
     }
 
+    .subtitle-custom-intro p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .subtitle-custom-intro h1 {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
 
 }

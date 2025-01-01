@@ -3,11 +3,12 @@ import './Experience.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAnchorCircleCheck, faBridgeCircleCheck, faCheckCircle, faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import ExperiencewithIcon from '../extraComponents/experiencewithicon.tsx';
+import { SectionComponent } from '../extraComponents/Components.tsx';
 
 
 const Experience = () => {
     return (
-        <section className='experience-custom' id='Experience'>
+        <SectionComponent id='Experience' child={<>
             <div className="experience-intro">
                 <p>Explore My</p>
                 <h1>Experience</h1>
@@ -42,7 +43,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </>} />
     )
 }
 
