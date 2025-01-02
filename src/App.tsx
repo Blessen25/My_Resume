@@ -4,12 +4,11 @@ import Home from './components/Homecomp/Home.tsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './components/Headercomp/Header.tsx';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aboutus from './components/aboutus/Aboutus.tsx';
-import Skills from './components/Experience/Experience.tsx';
 import Experience from './components/Experience/Experience.tsx';
 import Custom from './components/custompage/customcode.tsx';
 import Projects from './components/projects/projects.tsx';
+import Contactme from './components/contactme/contact.tsx';
 
 const App: React.FC = () => {
 
@@ -70,6 +69,9 @@ const App: React.FC = () => {
                 </section>
                 <section id='Projects'>
                   <Projects />
+                </section>
+                <section id='Contact'>
+                  <Contactme />
                 </section>
               </main>
             </div>
