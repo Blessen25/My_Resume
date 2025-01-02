@@ -66,3 +66,50 @@
     color: #ffffff;
     border: none;
 }
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .project-parentdiv {
+        margin-top: 20px;
+        padding: 0px;
+        justify-content: space-between;
+    }
+
+    .project-child {
+        width: 31%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .project-parentdiv {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .project-child {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .project-parentdiv {
+        padding: 0px;
+    }
+
+    .project-parentdiv .project-child h1 {
+        font-size: 13px;
+    }
+
+    .cstm-projects-btn {
+        min-width: 100px;
+        max-width: 100px;
+        font-size: 10px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .project-child {
+        width: 100%;
+    }
+}

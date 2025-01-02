@@ -83,11 +83,12 @@
 
     .experienceparentdiv {
         flex-wrap: wrap;
+        gap: 30px;
     }
+
 
     .experiencechildone {
         justify-content: center;
-        margin-bottom: 30px;
     }
 
     .experiencechildtwo {
@@ -120,6 +121,10 @@
 
     .experienceparentdiv {
         padding: 0px;
+    }
+
+    .experienceparentdiv {
+        gap: 20px;
     }
 
 }
