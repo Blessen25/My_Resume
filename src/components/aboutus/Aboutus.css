@@ -219,4 +219,13 @@
     .Aboutusdetailsfirstchild p {
         font-size: 9px;
     }
+
+    .Aboutusimageanddetails {
+        padding: 0px;
+    }
+
+    .image-div-about {
+        width: 100%;
+    }
+
 }

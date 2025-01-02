@@ -251,3 +251,19 @@
         height: 250px;
     }
 }
+
+@media screen and (max-width: 425px) {
+
+    .detailssection,
+    .photosection {
+        padding: 0px;
+    }
+
+    .photosection {
+        margin-bottom: 20px;
+    }
+
+    .detailsdiV {
+        width: 100%;
+    }
+}
