@@ -10,9 +10,59 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-parentdiv .project-child h1 {
     font-size: 20px;
     text-align: center;
+    margin-bottom: 15px;
+}
+
+.projectinnerchild {
+    width: 100%;
+    height: 300px;
+    margin: 0px 10px 10px 10px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.projectimgsrc {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.viewallprojects {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cstm-projects-btn {
+    min-width: 140px;
+    max-width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .7s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.cstm-projects-btn:hover {
+    background-color: #656565;
+    color: #ffffff;
+    border: none;
 }

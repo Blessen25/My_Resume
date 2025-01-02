@@ -107,6 +107,7 @@
     color: #000;
     font-weight: 600;
     transition: all .7s;
+    cursor: pointer;
     border: 1px solid black;
 }
 
@@ -128,6 +129,7 @@
     color: white;
     font-weight: 600;
     transition: all .7s;
+    cursor: pointer;
 }
 
 .contactinfobtn-custom:hover {
