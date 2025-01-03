@@ -1,4 +1,4 @@
-.contact-parentdiv{
+.contact-parentdiv {
     border: 2px solid black;
     width: 100%;
     height: 100%;
@@ -8,10 +8,51 @@
     align-items: center;
 }
 
-.contact-childdiv{
+.contact-childdiv {
     border: 2px solid black;
-    width: 40%;
+    width: 900px;
     height: 100px;
     border-radius: 25px;
+    display: flex;
+
+}
+
+.contact-innerchild {
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-innerrounddiv {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.contact-atag {
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000000;
+    transition: all .7s;
+}
+
+.contact-atag:hover {
+    color: #656565;
+}
+
+.mailclass-cstm {
+    color: white;
+    font-size: 14px;
 
 }
