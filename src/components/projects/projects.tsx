@@ -30,9 +30,9 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='viewallprojects'>
+                        {/* <div className='viewallprojects'>
                             <a href='#' className='cstm-projects-btn'>View Projects</a>
-                        </div>
+                        </div> */}
                     </>
                 }
             />

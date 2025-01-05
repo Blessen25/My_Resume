@@ -53,6 +53,10 @@
     background-color: #686868;
     width: 100%;
 }
+.headerchildtwo a:hover::after{
+    background-color: #686868;
+    width: 100%;
+}
 .headerchildrespon{
     display: none;
 }

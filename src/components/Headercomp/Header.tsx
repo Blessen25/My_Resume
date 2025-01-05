@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import './Header.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faHome } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +10,9 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = (Props) => {
 
-    console.log(Props.activeSection)
+    useEffect(()=>{
+        console.log(Props.activeSection)
+    },[Props.activeSection])
     const [togglesidebar, setTogglesidebar] = useState<boolean>(false)
     const handletogglesidebar = () => {
         setTogglesidebar((prev) => !prev)

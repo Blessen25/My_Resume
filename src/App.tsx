@@ -9,6 +9,7 @@ import Experience from './components/Experience/Experience.tsx';
 import Custom from './components/custompage/customcode.tsx';
 import Projects from './components/projects/projects.tsx';
 import Contactme from './components/contactme/contact.tsx';
+import FooterComp from './components/Footercomp/Footer.tsx';
 
 const App: React.FC = () => {
 
@@ -29,7 +30,6 @@ const App: React.FC = () => {
     );
 
     sections.forEach((section) => observer.observe(section));
-    console.log('Sections ===', sections)
     return () => {
       sections.forEach((section) => observer.unobserve(section));
     };
@@ -74,6 +74,7 @@ const App: React.FC = () => {
                   <Contactme />
                 </section>
               </main>
+              <FooterComp scrollToSection={scrolltoSection} activeSection={activeSection} />
             </div>
           } />
 
