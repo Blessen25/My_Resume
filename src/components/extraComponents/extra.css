@@ -66,6 +66,9 @@
     .experiencecheckicon {
         font-size: 24px;
     }
+    .section-custom{
+        margin-top: 0px ;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -89,6 +92,9 @@
     .subtitle-custom-intro h1 {
         font-size: 15px;
         margin-bottom: 30px;
+    }
+    .section-custom{
+        padding: 0px 20px 20px 20px ;
     }
 
 }

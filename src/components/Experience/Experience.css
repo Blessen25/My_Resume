@@ -119,12 +119,11 @@
         font-size: 15px;
     }
 
-    .experienceparentdiv {
-        padding: 0px;
-    }
 
     .experienceparentdiv {
         gap: 20px;
+        margin-bottom: 26px;
+        padding: 0px;
     }
 
 }

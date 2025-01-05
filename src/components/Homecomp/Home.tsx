@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css'
+import { SectionComponent } from "../extraComponents/Components.tsx";
 
 const Home = () =>{
 
@@ -19,8 +20,9 @@ const Home = () =>{
         window.open('#')
     }
 return(
-        <section className="Homediv-custom" id="Home">
-            <div className="photoanddetailssection">
+    <SectionComponent id="Home" cusclassname="Homediv-custom-cstm" child={
+        <>
+        <div className="photoanddetailssection">
                 <div className="photosection">
                     <div className="imagediv">
                         <img src="./Images/Profile_image.jpg" alt="Profile Image" className="image-custom"/>
@@ -52,7 +54,9 @@ return(
                     </div>
                 </div>
             </div>
-        </section>
+        </>
+    }>
+    </SectionComponent>
 )
 }
 
