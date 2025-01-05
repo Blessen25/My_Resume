@@ -6,7 +6,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contactme = () => {
     return (
-        <SectionComponent id={"Contact"} child={
+        <SectionComponent id={"Contact"} cusclassname="contactdiv-cstm" child={
             <>
                 <Subtitleandtitle subtitle="Get In Touch" title="Contact Me" />
                 <div className="contact-parentdiv">
