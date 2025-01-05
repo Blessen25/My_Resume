@@ -30,11 +30,21 @@ const Header: React.FC<HeaderProps> = (Props) => {
                     <h4 className="header-name">Blessen Vinoy Mathew</h4>
                 </div>
                 <div className="headerchildtwo">
-                    <a href="#" className={`header-links ${Props.activeSection === 'Home' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Home')}>Home</a>
+                    {/* <a href="#" className={`header-links ${Props.activeSection === 'Home' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Home')}>Home</a>
                     <a href="#About" className={`header-links ${Props.activeSection === 'About' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('About')}>About</a>
                     <a href="#Experience" className={`header-links ${Props.activeSection === 'Experience' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Experience')}>Experience</a>
                     <a href="#Projects" className={`header-links ${Props.activeSection === 'Projects' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Projects')}>Projects</a>
-                    <a href="#Contact" className={`header-links ${Props.activeSection === 'Contact' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Contact')}>Contact</a>
+                    <a href="#Contact" className={`header-links ${Props.activeSection === 'Contact' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Contact')}>Contact</a> */}
+                    {["Home", "About", "Experience", "Projects", "Contact"].map((section) => (
+                        <a
+                            key={section}
+                            href={`#${section}`}
+                            className={`header-links ${Props.activeSection === section ? "headeractive" : ""}`}
+                            onClick={() => Props.scrollToSection(section)}
+                        >
+                            {section}
+                        </a>
+                        ))}
                 </div>
                 <div className="headerchildrespon">
                     <FontAwesomeIcon icon={faBars} onClick={handletogglesidebar} />
@@ -44,11 +54,13 @@ const Header: React.FC<HeaderProps> = (Props) => {
                 <>
                     <div className="sidebar">
                         <div className="header-childtwosidebar">
-                            <a href="#" className={`header-links ${Props.activeSection === 'Home' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Home')}>Home</a>
+                            {/* <a href="#" className={`header-links ${Props.activeSection === 'Home' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Home')}>Home</a>
                             <a href="#About" className={`header-links ${Props.activeSection === 'About' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('About')}>About</a>
                             <a href="#Experience" className={`header-links ${Props.activeSection === 'Experience' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Experience')}>Experience</a>
                             <a href="#Projects" className={`header-links ${Props.activeSection === 'Projects' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Projects')}>Projects</a>
-                            <a href="#Contact" className={`header-links ${Props.activeSection === 'Contact' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Contact')}>Contact</a>
+                            <a href="#Contact" className={`header-links ${Props.activeSection === 'Contact' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Contact')}>Contact</a> */}
+                            {["Home","About","Experience","Projects","Contact"].map((section)=>(
+                                <a key={section} href={`#${section}`} className={`header-links`} onClick={() => handlesidebarClick(section)}>{section}</a>))}
                         </div>
                     </div>
                     <div className="outlay-custom">

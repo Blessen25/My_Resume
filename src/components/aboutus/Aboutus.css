@@ -51,7 +51,7 @@
 
 .image-div-about {
     width: 320px;
-    height: 320px;
+    height: 360px;
     border-radius: 5%;
     margin-right: 40px;
 }
@@ -105,11 +105,12 @@
     color: #656565;
     width: 100%;
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 7;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: justify;
+    margin-top: 15px;
 }
 
 .about-us-image {
@@ -147,6 +148,7 @@
 
     .image-div-about {
         margin-right: 0px;
+        height: 270px;
     }
 
     .Aboutusdetails {

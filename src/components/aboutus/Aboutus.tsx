@@ -31,7 +31,7 @@ const Aboutus = () => {
                             </div>
                         </div>
                         <div className="Aboutusdetailssecond">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus alias nesciunt temporibus similique recusandae totam consectetur! Voluptatibus quisquam optio, earum voluptates ut dolorem maiores, eligendi amet blanditiis corrupti a voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, corrupti quaerat. In voluptatum facere vitae praesentium aspernatur sunt ea ab reiciendis consequatur? Expedita aperiam perspiciatis iusto assumenda saepe, architecto itaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error.</p>
+                            <p>Hi, I’m Blessen Vinoy Mathew, a passionate and dedicated frontend developer with 10 months of professional experience in creating engaging and user-friendly websites. Building websites has always been more than just a job for me—it's a creative outlet and a true passion. I thrive on combining aesthetics with functionality, ensuring that every project I work on not only looks great but also delivers an exceptional user experience. While my job is based on frontend development, I also enjoy diving into backend technologies, enabling me to create robust full-stack applications. When I’m not coding, you’ll find me exploring new design trends, contributing to personal projects, or deepening my knowledge of web development best practices.</p>
                         </div>
                     </div>
                 </div>

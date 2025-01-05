@@ -1,9 +1,11 @@
 import React from "react";
 import './Home.css'
 import { SectionComponent } from "../extraComponents/Components.tsx";
+import { useNavigate } from "react-router-dom";
 
 const Home = () =>{
 
+    const navigate = useNavigate();
     const handleDownloadcv = () =>{
         window.open('./Images/Blessen_Resume.pdf')
     }
@@ -16,9 +18,6 @@ const Home = () =>{
         window.open('#')
     }
 
-    const handleContactinfo = () =>{
-        window.open('#')
-    }
 return(
     <SectionComponent id="Home" cusclassname="Homediv-custom-cstm" child={
         <>
@@ -40,8 +39,8 @@ return(
                             <h1 className="margin-t-0 margin-b-0">Software Developer</h1>
                         </div>
                         <div className="homebuttondiv">
-                            <button className="downlaodbtn-custom" onClick={handleDownloadcv}>Download CV</button>
-                            <button className="contactinfobtn-custom" onClick={handleContactinfo}>Contact Info</button>
+                            <a href="#" className="downlaodbtn-custom" onClick={handleDownloadcv} target="_blank">Download CV</a>
+                            <a href="#Contact" className="contactinfobtn-custom">Contact Info</a>
                         </div>
                         <div className="homesocialbuttondiv">
                             <div className="linkdindiv" onClick={handlelinkdinclick}>

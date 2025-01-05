@@ -100,14 +100,15 @@
     min-width: 140px;
     max-width: 140px;
     height: 40px;
+    background-color: white;
     border-radius: 25px;
-    outline-color: none;
-    outline: none;
-    background-color: #ffffff;
-    color: #000;
+    text-decoration: none;
+    color: black;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all .7s;
-    cursor: pointer;
     border: 1px solid black;
 }
 
@@ -121,15 +122,15 @@
     min-width: 140px;
     max-width: 140px;
     height: 40px;
-    border-radius: 25px;
-    outline-color: none;
-    outline: none;
-    border: 1px solid #656565;
     background-color: #656565;
+    border-radius: 25px;
+    text-decoration: none;
     color: white;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all .7s;
-    cursor: pointer;
 }
 
 .contactinfobtn-custom:hover {

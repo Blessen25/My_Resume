@@ -14,19 +14,19 @@ const Projects = () => {
                             <div className="project-child">
                                 <h1>Project 1</h1>
                                 <div className="projectinnerchild">
-                                    <img src="../Images/plantbased.png" alt="" className="projectimgsrc" />
+                                    <img src="../Images/instagram.png" alt="" className="projectimgsrc" />
                                 </div>
                             </div>
                             <div className="project-child">
                                 <h1>Project 2</h1>
                                 <div className="projectinnerchild">
-                                    <img src="../Images/Clothshop.png" alt="" className="projectimgsrc" />
+                                    <img src="../Images/Shoppingpage.png" alt="" className="projectimgsrc" />
                                 </div>
                             </div>
                             <div className="project-child">
                                 <h1>Project 3</h1>
                                 <div className="projectinnerchild">
-                                    <img src="../Images/plantbased.png" alt="" className="projectimgsrc" />
+                                    <img src="../Images/plantswebsite.png" alt="" className="projectimgsrc" />
                                 </div>
                             </div>
                         </div>
