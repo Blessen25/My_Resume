@@ -1,5 +1,4 @@
 .contact-parentdiv {
-    border: 2px solid black;
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -9,16 +8,16 @@
 }
 
 .contact-childdiv {
-    border: 2px solid black;
-    width: 900px;
+    width: 600px;
     height: 100px;
     border-radius: 25px;
     display: flex;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 
 }
 
 .contact-innerchild {
-    width: 50%;
+    width: 64%;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -55,4 +54,104 @@
     color: white;
     font-size: 14px;
 
+}
+
+.contact-innerchild2{
+    width: 36%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.chatonwhatsapp{
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    margin-top: 10px; 
+}
+.btn-chatwhatsapp{
+    text-decoration: none;
+    color: white;
+    background-color: #25D366;
+    font-weight: 600;
+    min-width: 180px;
+    max-width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all .7s;
+}
+
+.btn-chatwhatsapp:hover{
+    background-color: #22b959;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-atag{
+        font-size: 13px;
+    }
+    .contact-childdiv{
+        width: 500px;
+    }
+    .contact-innerchild{
+        width: 67%;
+    }
+    .contact-innerchild2{
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .contact-innerrounddiv {
+        width: 30px;
+        height: 30px;
+    }
+    .mailclass-cstm{
+        font-size: 12px;
+    }
+    .contact-atag{
+        font-size: 10px;
+    }
+    .contact-childdiv{
+        width: 400px;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .contact-innerchild{
+        width: 67%;
+    }
+    .contact-innerchild2{
+        width: 33%;
+    }
+    .btn-chatwhatsapp{
+        font-size: 10px;
+        height: 30px;
+        min-width: 124px;
+        max-width: 124px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .contact-childdiv{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .contact-innerchild{
+        width: 100%;
+        justify-content: center;
+    }
+    .contact-innerchild2{
+        width: 100%;
+        justify-content: center;
+    }
+    .contact-parentdiv{
+        padding: 0px;
+    }
+    .btn-chatwhatsapp{
+        margin-top: 20px;
+    }
 }

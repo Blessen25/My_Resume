@@ -29,10 +29,10 @@ const Header: React.FC<HeaderProps> = (Props) => {
                 </div>
                 <div className="headerchildtwo">
                     <a href="#" className={`header-links ${Props.activeSection === 'Home' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Home')}>Home</a>
-                    <a href="#" className={`header-links ${Props.activeSection === 'About' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('About')}>About</a>
-                    <a href="#" className={`header-links ${Props.activeSection === 'Skills' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Experience')}>Experience</a>
-                    <a href="#" className={`header-links ${Props.activeSection === 'Experience' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Projects')}>Projects</a>
-                    <a href="#" className={`header-links ${Props.activeSection === 'Contact' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Contact')}>Contact</a>
+                    <a href="#About" className={`header-links ${Props.activeSection === 'About' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('About')}>About</a>
+                    <a href="#Experience" className={`header-links ${Props.activeSection === 'Experience' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Experience')}>Experience</a>
+                    <a href="#Projects" className={`header-links ${Props.activeSection === 'Projects' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Projects')}>Projects</a>
+                    <a href="#Contact" className={`header-links ${Props.activeSection === 'Contact' ? "headeractive" : " "}`} onClick={() => Props.scrollToSection('Contact')}>Contact</a>
                 </div>
                 <div className="headerchildrespon">
                     <FontAwesomeIcon icon={faBars} onClick={handletogglesidebar} />
@@ -43,10 +43,10 @@ const Header: React.FC<HeaderProps> = (Props) => {
                     <div className="sidebar">
                         <div className="header-childtwosidebar">
                             <a href="#" className={`header-links ${Props.activeSection === 'Home' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Home')}>Home</a>
-                            <a href="#" className={`header-links ${Props.activeSection === 'About' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('About')}>About</a>
-                            <a href="#" className={`header-links ${Props.activeSection === 'Skills' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Experience')}>Experience</a>
-                            <a href="#" className={`header-links ${Props.activeSection === 'Experience' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Projects')}>Projects</a>
-                            <a href="#" className={`header-links ${Props.activeSection === 'Contact' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Contact')}>Contact</a>
+                            <a href="#About" className={`header-links ${Props.activeSection === 'About' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('About')}>About</a>
+                            <a href="#Experience" className={`header-links ${Props.activeSection === 'Experience' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Experience')}>Experience</a>
+                            <a href="#Projects" className={`header-links ${Props.activeSection === 'Projects' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Projects')}>Projects</a>
+                            <a href="#Contact" className={`header-links ${Props.activeSection === 'Contact' ? "headeractive" : " "}`} onClick={() => handlesidebarClick('Contact')}>Contact</a>
                         </div>
                     </div>
                     <div className="outlay-custom">
