@@ -7,7 +7,7 @@ const Home = () =>{
 
     const navigate = useNavigate();
     const handleDownloadcv = () =>{
-        window.open('./Images/Resume_BlessenVinoyMathew.pdf')
+        window.open('./Images/BlessenVinoy_Resume.pdf')
     }
 
     const handlelinkdinclick = () =>{
