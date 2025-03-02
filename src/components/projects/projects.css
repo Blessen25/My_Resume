@@ -3,6 +3,8 @@
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .project-child {
@@ -75,7 +77,7 @@
     }
 
     .project-child {
-        width: 31%;
+        width: 30%;
         padding: 20px;
     }
 }
@@ -94,6 +96,7 @@
 @media screen and (max-width: 575px) {
     .project-parentdiv {
         padding: 0px;
+        gap: 20px;
     }
 
     .project-parentdiv .project-child h1 {

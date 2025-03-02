@@ -15,6 +15,9 @@ export const Projects = () => {
                             <ProjectCardDiv projectimg='../Images/Shop.cloth.png' projectno='Project 1' projecthref='https://clothappbvm.vercel.app/'/>
                             <ProjectCardDiv projectimg='../Images/expense_tracker.png' projectno='Project 2' projecthref='https://expense-tracker-bvm.vercel.app/'/>
                             <ProjectCardDiv projectimg='../Images/Plantbasedapp.png' projectno='Project 3' />
+                            <ProjectCardDiv projectimg='../Images/instagramandfacebookclone.png' projectno='Project 4' />
+                            <ProjectCardDiv projectimg='../Images/instagram.png' projectno='Project 5' />
+                            <ProjectCardDiv projectimg='../Images/Resume_portfolio.png' projectno='Project 6' projecthref='https://blessenportfolio.vercel.app/'/>
                         </div>
                         {/* <div className='viewallprojects'>
                             <a href='#' className='cstm-projects-btn'>View Projects</a>
