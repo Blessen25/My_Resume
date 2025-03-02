@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
 
     const navigate = useNavigate();
-    const handleDownloadcv = () =>{
+    const handleDownloadcv = () => {
         window.open('./Images/BlessenVinoy_Resume.pdf')
     }
 

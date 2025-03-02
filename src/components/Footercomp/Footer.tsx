@@ -1,13 +1,13 @@
 import React from 'react';
 import './Footer.css'
 
-interface FootercompProps{
+interface FootercompProps {
     scrollToSection: (id: string) => void;
     activeSection: string;
 }
 
-const FooterComp:React.FC<FootercompProps> = (Props) =>{
-    return(
+const FooterComp: React.FC<FootercompProps> = (Props) => {
+    return (
         <div className="footercstm">
             <div className="footerchilddiv">
                 <div className="footerchildcontent">
@@ -19,7 +19,7 @@ const FooterComp:React.FC<FootercompProps> = (Props) =>{
                 </div>
             </div>
             <div className="footerchilddiv2">
-                <p>Copyright © 2025. All Rights Reserved.</p>
+                <p>© 2025 Blessen Vinoy Mathew</p>
             </div>
         </div>
     )
