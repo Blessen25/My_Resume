@@ -1,8 +1,9 @@
 import React from 'react';
 import { SectionComponent, Subtitleandtitle } from '../extraComponents/Components.tsx';
 import './projects.css'
+import { ProjectCardDivProps } from '../../interface/interface.tsx';
 
-const Projects = () => {
+export const Projects = () => {
     return (
         <>
             <SectionComponent
@@ -11,24 +12,12 @@ const Projects = () => {
                     <>
                         <Subtitleandtitle subtitle='Browse My Recent' title='Projects' />
                         <div className="project-parentdiv">
-                            <div className="project-child">
-                                <h1>Project 1</h1>
-                                <div className="projectinnerchild">
-                                    <img src="../Images/instagram.png" alt="" className="projectimgsrc" />
-                                </div>
-                            </div>
-                            <div className="project-child">
-                                <h1>Project 2</h1>
-                                <div className="projectinnerchild">
-                                    <img src="../Images/Shoppingpage.png" alt="" className="projectimgsrc" />
-                                </div>
-                            </div>
-                            <div className="project-child">
-                                <h1>Project 3</h1>
-                                <div className="projectinnerchild">
-                                    <img src="../Images/plantswebsite.png" alt="" className="projectimgsrc" />
-                                </div>
-                            </div>
+                            <ProjectCardDiv projectimg='../Images/Shop.cloth.png' projectno='Project 1' projecthref='https://clothappbvm.vercel.app/'/>
+                            <ProjectCardDiv projectimg='../Images/expense_tracker.png' projectno='Project 2' projecthref='https://expense-tracker-bvm.vercel.app/'/>
+                            <ProjectCardDiv projectimg='../Images/Plantbasedapp.png' projectno='Project 3' />
+                            <ProjectCardDiv projectimg='../Images/instagramandfacebookclone.png' projectno='Project 4' />
+                            <ProjectCardDiv projectimg='../Images/instagram.png' projectno='Project 5' />
+                            <ProjectCardDiv projectimg='../Images/Resume_portfolio.png' projectno='Project 6' projecthref='https://blessenportfolio.vercel.app/'/>
                         </div>
                         {/* <div className='viewallprojects'>
                             <a href='#' className='cstm-projects-btn'>View Projects</a>
@@ -40,4 +29,26 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export const ProjectCardDiv:React.FC<ProjectCardDivProps> = (Props) =>{
+
+    return(
+        <>
+            <div className="project-child">
+                <h1>{Props.projectno}</h1>
+                <div className="projectinnerchild">
+                    {Props.projecthref ? (
+                        <>
+                            <a href={Props.projecthref} style={{ cursor : 'pointer'}} target='_blank' >
+                                <img src={Props.projectimg} alt="" className="projectimgsrc" />
+                            </a>
+                        </>
+                    ) : (
+                        <>
+                            <img src={Props.projectimg} alt="" className="projectimgsrc" /> 
+                        </>
+                    ) }
+                </div>
+            </div>
+        </>
+    )
+}

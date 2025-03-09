@@ -7,7 +7,7 @@ import Header from './components/Headercomp/Header.tsx';
 import Aboutus from './components/aboutus/Aboutus.tsx';
 import Experience from './components/Experience/Experience.tsx';
 import Custom from './components/custompage/customcode.tsx';
-import Projects from './components/projects/projects.tsx';
+import { Projects } from './components/projects/projects.tsx';
 import Contactme from './components/contactme/contact.tsx';
 import FooterComp from './components/Footercomp/Footer.tsx';
 

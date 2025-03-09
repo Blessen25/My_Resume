@@ -12,4 +12,12 @@ interface Subtitleandtitleprops {
     style?: React.CSSProperties;
 }
 
-export { SectionComponentprops, Subtitleandtitleprops }
+
+interface ProjectCardDivProps {
+
+    projectno : string;
+    projectimg : string;
+    projecthref ?: string;
+}
+
+export { SectionComponentprops, Subtitleandtitleprops, ProjectCardDivProps }
