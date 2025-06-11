@@ -20,8 +20,8 @@ const Aboutus = () => {
                             <div className="Aboutusdetailsfirstchild">
                                 <FontAwesomeIcon icon={faRankingStar} className="aboutusgradicon" />
                                 <h1>Experience</h1>
-                                <p>10 months</p>
-                                <p>Front-end Developer</p>
+                                <p>1 Year</p>
+                                <p>Programmer Trainee</p>
                             </div>
                             <div className="Aboutusdetailsfirstchild">
                                 <FontAwesomeIcon icon={faGraduationCap} className="aboutusgradicon" />
