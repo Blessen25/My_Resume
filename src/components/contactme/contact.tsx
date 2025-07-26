@@ -21,7 +21,7 @@ const Contactme = () => {
                             <div className="contact-innerrounddiv">
                                 <FontAwesomeIcon icon={faPhone} className="mailclass-cstm" />
                             </div>
-                            <a href="tel:+919074493076" className="contact-atag">9074493076</a>
+                            <a href="tel:+61416416738" className="contact-atag">416416738</a>
                         </div>
                     </div>
                 </div>
