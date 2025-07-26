@@ -47,6 +47,7 @@ export const Projects = () => {
                                         <MoreProjectCardDiv projectimg='../Images/instagramandfacebookclone.png' projectno='Project 4' />
                                         <MoreProjectCardDiv projectimg='../Images/instagram.png' projectno='Project 5' />
                                         <MoreProjectCardDiv projectimg='../Images/Resume_portfolio.png' projectno='Project 6' projecthref='https://blessenportfolio.vercel.app/' />
+                                        <MoreProjectCardDiv projectimg='../Images/Geelong_Pentecostal_Assembly.png' projectno='Project 7' projecthref='https://geelong-church.vercel.app/' />
                                     </div>
                                 </div>
                             </div>
