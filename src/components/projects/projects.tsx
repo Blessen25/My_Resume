@@ -31,7 +31,7 @@ export const Projects = () => {
                         <div className="project-parentdiv">
                             <ProjectCardDiv projectimg='../Images/Shop.cloth.png' projectno='Project 1' projecthref='https://clothappbvm.vercel.app/' />
                             <ProjectCardDiv projectimg='../Images/expense_tracker.png' projectno='Project 2' projecthref='https://expense-tracker-bvm.vercel.app/' />
-                            <ProjectCardDiv projectimg='../Images/Plantbasedapp.png' projectno='Project 3' />
+                            <ProjectCardDiv projectimg='../Images/Geelong_Pentecostal_Assembly.png' projectno='Project 3' projecthref='https://www.geelongpentecostalassembly.com.au/' />
                         </div>
                         <div className='viewallprojects'>
                             <a href='#' className='cstm-projects-btn' onClick={handleModalOpen}>View Projects</a>
@@ -43,11 +43,12 @@ export const Projects = () => {
                                     <div className="product-modalcstm">
                                         <MoreProjectCardDiv projectimg='../Images/Shop.cloth.png' projectno='Project 1' projecthref='https://clothappbvm.vercel.app/' />
                                         <MoreProjectCardDiv projectimg='../Images/expense_tracker.png' projectno='Project 2' projecthref='https://expense-tracker-bvm.vercel.app/' />
-                                        <MoreProjectCardDiv projectimg='../Images/Plantbasedapp.png' projectno='Project 3' />
+                                        <MoreProjectCardDiv projectimg='../Images/Geelong_Pentecostal_Assembly.png' projectno='Project 3' projecthref='https://www.geelongpentecostalassembly.com.au/' />
                                         <MoreProjectCardDiv projectimg='../Images/instagramandfacebookclone.png' projectno='Project 4' />
                                         <MoreProjectCardDiv projectimg='../Images/instagram.png' projectno='Project 5' />
                                         <MoreProjectCardDiv projectimg='../Images/Resume_portfolio.png' projectno='Project 6' projecthref='https://blessenportfolio.vercel.app/' />
-                                        <MoreProjectCardDiv projectimg='../Images/Geelong_Pentecostal_Assembly.png' projectno='Project 7' projecthref='https://geelong-church.vercel.app/' />
+                                        <MoreProjectCardDiv projectimg='../Images/Plantbasedapp.png' projectno='Project 7' />
+
                                     </div>
                                 </div>
                             </div>
